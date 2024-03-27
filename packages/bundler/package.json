@@ -1,0 +1,27 @@
+{
+  "name": "@ts-scratch/bundler",
+  "version": "0.0.1",
+  "type": "module",
+  "module": "dist/index",
+  "types": "dist/index",
+  "bin": {
+    "bundle": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@swc/core": "^1.4.8",
+    "cac": "^6.7.14",
+    "debug": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/node": "^20.11.28",
+    "typescript": "~5.4.2",
+    "vitest": "^1.4.0"
+  },
+  "private": "true",
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "description": "A scratch project for TypeScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": "true",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.11.1",
+    "pnpm": "8.15.4"
+  },
+  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2"
+}

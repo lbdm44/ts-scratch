@@ -1,0 +1,19 @@
+{
+  "name": "@ts-scratch/virtual-svg-import",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index",
+  "module": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "private": "true",
+  "license": "MIT"
+}
